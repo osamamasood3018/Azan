@@ -65,7 +65,7 @@
 
             //get current weather
 
-            axios.get(`http://api.aladhan.com/v1/timingsByCity?city=${cityName}&country=${country}&method=8`)
+            axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${cityName}&country=${country}&method=8`)
                 .then(function (response) {
                     console.log("Current :",response.data);
 
